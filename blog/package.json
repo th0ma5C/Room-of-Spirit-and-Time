@@ -10,8 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/tailwindcss": "^6.12.2",
     "nuxt": "^3.14.1592",
+    "nuxt-app": "file:",
+    "tailwindcss": "^3.4.15",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vuetify-nuxt-module": "^0.18.3"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.4"
   }
 }
